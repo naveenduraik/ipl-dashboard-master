@@ -15,7 +15,7 @@ import io.javabrains.ipldashboard.repository.MatchRepository;
 import io.javabrains.ipldashboard.repository.TeamRepository;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("http://localhost:8080/")
 public class TeamController {
 
     private TeamRepository teamRepository;
